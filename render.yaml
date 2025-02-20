@@ -4,10 +4,4 @@ services:
     env: docker
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
-    envVars:
-      - key: SPRING_DATASOURCE_URL
-        value: jdbc:postgresql://dpg-curidjaj1k6c73astvdg-a.frankfurt-postgres.render.com/patika_capstone_library
-      - key: SPRING_DATASOURCE_USERNAME
-        value: patika_mert_topcu
-      - key: SPRING_DATASOURCE_PASSWORD
-        value: sPqg9NMM6j5hlxbW7EzUw1cfXIQauLLr
+
